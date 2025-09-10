@@ -3,7 +3,7 @@ import Card from './components/Card.jsx';
 import IconLinks from './components/IconLinks.jsx';
 import './App.css';
 
-// Use string keys that match the iconMap in IconLinks.jsx
+
 const mainLinks = [
   { href: 'https://open.spotify.com/album/1HfPmp1qLgn6Q1jbG76M2d', icon: 'spotify' },
   { href: 'https://soundcloud.com/user-719323831/sets/who-df-is-mhood556?si=b484398ae9f2400dbf9d7ad33ef6fe83&utm_source=clipboard&utm_medium=text&utm_campaign=social_sharing', icon: 'soundcloud' },
@@ -79,7 +79,7 @@ function App() {
 
       {tapped && <h1 className="fade-in">Who df is mhood556</h1>}
 
-      {/* Main icon row now has a class for dark gray */}
+     
       {tapped && <IconLinks links={mainLinks} className="main-links" />}
 
       {tapped && (
